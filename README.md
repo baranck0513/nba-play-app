@@ -6,8 +6,8 @@ NBA Play is a full-stack application that scrapes, stores, and dynamically prese
 
 - **Backend**: Java 21, Spring Boot, Spring Data JPA, Hibernate
 - **Database**: PostgreSQL
-- **Frontend**: React, JavaScript
-- **AI**: Claude API (Anthropic) — natural language query processing
+- **Frontend**: ReactJS
+- **AI**: Claude API
 - **Data Scraping**: Python, pandas
 
 ## Features
