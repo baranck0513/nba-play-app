@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-const API = 'http://localhost:8080/api/v1/player';
-const CHAT_API = 'http://localhost:8080/api/v1/chat';
+const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+const API = `${BASE_URL}/api/v1/player`;
+const CHAT_API = `${BASE_URL}/api/v1/chat`;
 
 function App() {
   const [players, setPlayers] = useState([]);
